@@ -1,0 +1,67 @@
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  font-size: 18px;
+}
+
+.title h1 {
+  font-size: 40px;
+}
+
+.title p {
+  font-size: 20px;
+}
+
+.home-picture {
+  height: 500px;
+}
+
+.picture, .video {
+  width: auto;
+  height: 500px;
+}
+
+.description {
+  max-width: 1210px;
+  font-size: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 20px;
+  padding: 0 50px;
+}
+
+.projects h2 {
+  font-size: 30px;
+}
+
+.projects h3 {
+  font-size: 20px;
+}
+
+.projects video {
+  width: 100%;
+}
+
+.contactme {
+  max-width: 600px;
+}
+
+.contactme label {
+  font-size: 20px;
+}
+
+.contactme input[type="text"],
+.contactme input[type="email"],
+.contactme input[type="tel"],
+.contactme textarea {
+  font-size: 18px;
+}
+
+.contactme .submit-btn {
+  font-size: 18px;
+}

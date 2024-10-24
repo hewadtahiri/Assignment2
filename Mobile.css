@@ -1,0 +1,69 @@
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  font-size: 16px;
+}
+
+.title h1 {
+  font-size: 38px;
+}
+
+.title p {
+  font-size: 18px;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.home-picture {
+  width: calc(100% - 20px);
+}
+
+.picture, .video {
+  width: calc(100% - 20px);
+  height: auto;
+}
+
+.description {
+  max-width: calc(100% - 40px);
+  font-size: 18px;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.projects h2 {
+  font-size: 26px;
+}
+
+.projects h3 {
+  font-size: 16px;
+}
+
+.projects video {
+  width: calc(100% - 20px);
+}
+
+.contactme {
+  max-width: calc(100% - 20px);
+}
+
+.contactme label {
+  font-size: 18px;
+}
+
+.contactme input[type="text"],
+.contactme input[type="email"],
+.contactme input[type="tel"],
+.contactme textarea {
+  font-size: 16px;
+}
+
+.contactme .submit-btn {
+  font-size: 16px;
+}
