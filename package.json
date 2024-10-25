@@ -2,11 +2,9 @@
   "name": "assignment-2",
   "version": "1.0.0",
   "main": "App.js",
-  {
-    "scripts": {
-      "start": "node index.js"
-    }
-  }
+  "scripts": {
+    "start": "node index.js"
+  },
   "keywords": [],
   "author": "Hewad Tahiri",
   "license": "ISC",
