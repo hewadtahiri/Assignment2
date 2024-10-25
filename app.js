@@ -2,9 +2,8 @@ const express = require('express');
 const path = require('path');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
-const bodyParser = require('body-parser');
 
-const indexRouter = require('./Controllers/index');
+const indexRouter = require('./Controllers/index'); // Comment this out if the file doesn't exist
 
 const app = express();
 
@@ -15,11 +14,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-
 app.use(express.static(path.join(__dirname, 'public')));
-
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
 
 app.use('/', indexRouter);
 
@@ -35,6 +30,11 @@ app.use((err, req, res, next) => {
 
   res.status(err.status || 500);
   res.render('error');
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
 
 module.exports = app;
