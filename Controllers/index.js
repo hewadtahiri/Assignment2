@@ -5,7 +5,7 @@ router.get("/", (req, res) => {
   res.render("index", { title: "Home", body: "" });
 });
 
-router.get("/About Me", (req, res) => {
+router.get("/AboutMe", (req, res) => {
   res.render("About Me", { title: "About Me", body: "" });
 });
 
@@ -13,7 +13,7 @@ router.get("/Projects", (req, res) => {
   res.render("Projects", { title: "Projects", body: "" });
 });
 
-router.get("/Contact Me", (req, res) => {
+router.get("/ContactMe", (req, res) => {
   res.render("Contact Me", { title: "Contact Me", body: "" });
 });
 
