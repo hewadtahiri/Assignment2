@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -34,7 +36,8 @@ body {
 }
 
 main {
-  min-height: calc(100% - 130px);
+  margin-top: 10px;
+  flex: 1;
 }
 
 .title {
