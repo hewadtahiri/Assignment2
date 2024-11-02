@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -9,10 +7,10 @@ html, body {
   font-family: "Lexend", sans-serif;
 }
 
-/*body {
+body {
   display: flex;
   flex-direction: column;
-}*/
+}
 
 .navbar {
   background: linear-gradient(360deg, #007bff, #00bfff);
@@ -35,10 +33,9 @@ html, body {
   color: #ffd700;
 }
 
-//*main {
-  margin-top: 10px;
-  flex: 1;
-}*/
+main {
+  min-height: calc(100% - 130px);
+}
 
 .title {
   text-align: center;
