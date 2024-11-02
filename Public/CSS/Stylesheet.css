@@ -9,10 +9,10 @@ html, body {
   font-family: "Lexend", sans-serif;
 }
 
-body {
+/*body {
   display: flex;
   flex-direction: column;
-}
+}*/
 
 .navbar {
   background: linear-gradient(360deg, #007bff, #00bfff);
@@ -35,10 +35,10 @@ body {
   color: #ffd700;
 }
 
-main {
+//*main {
   margin-top: 10px;
   flex: 1;
-}
+}*/
 
 .title {
   text-align: center;
