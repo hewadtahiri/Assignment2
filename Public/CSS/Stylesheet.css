@@ -2,8 +2,20 @@ html, body {
   font-family: "Lexend", sans-serif;
 }
 
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  font-weight: 700;
+}
+
+.title p {
+  font-weight: 400;
+  margin: 0 auto 50px;
+}
 .projects h2 {
-  margin-bottom: 50px;
+  margin-bottom: 5px;
   font-weight: 700;
 }
 
