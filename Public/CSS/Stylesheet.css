@@ -4,7 +4,7 @@ html, body {
 
 .title h1 {
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 2.5px;
 }
 
 .title p {
@@ -14,7 +14,7 @@ html, body {
 
 .projects h2 {
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 2.5px;
 }
 
 .projects h3 {
