@@ -17,17 +17,17 @@ html, body {
   color: #ffd700;
 }
 
-.title h1 {
+.text h1 {
   font-weight: 700;
   margin-top: 5px;
   margin-bottom: 0px;
 }
 
-.title p {
+.text p {
   font-weight: 400;
 }
 
-.picture {
+.photo {
   height: "500px"
 }
 
