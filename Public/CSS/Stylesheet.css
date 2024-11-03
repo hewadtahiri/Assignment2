@@ -36,16 +36,16 @@ html, body {
   font-weight: 400;
 }
 
-.footer {
+.footers {
   background: linear-gradient(135deg, #007bff, #00bfff);
   color: white;
   font-weight: 400;
 }
 
-.footer a {
+.footers a {
   color: white;
 }
 
-.footer p {
+.footers p {
   margin-bottom: 2.5px;
 }
