@@ -40,6 +40,18 @@ html, body {
   font-weight: 400;
 }
 
+.contactme input[type="text"],
+.contactme input[type="email"],
+.contactme input[type="tel"],
+.contactme textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contactme .submit-btn:hover {
+  color: #ffd700;
+}
+
 .footers {
   color: white;
   background: linear-gradient(135deg, #007bff, #00bfff);
