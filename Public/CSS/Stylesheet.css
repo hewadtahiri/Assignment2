@@ -20,11 +20,11 @@ html, body {
 .title h1 {
   font-weight: 700;
   margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 .title p {
   font-weight: 400;
-  margin: 0 auto 50px;
 }
 
 .projects h2 {
