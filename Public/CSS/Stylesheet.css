@@ -17,13 +17,13 @@ html, body {
   color: #ffd700;
 }
 
-.text h1 {
+.title h1 {
   font-weight: 700;
   margin-top: 5px;
   margin-bottom: 0px;
 }
 
-.text p {
+.title p {
   font-weight: 400;
 }
 
@@ -40,28 +40,16 @@ html, body {
   font-weight: 400;
 }
 
-.contactme input[type="text"],
-.contactme input[type="email"],
-.contactme input[type="tel"],
-.contactme textarea {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.contactme .submit-btn:hover {
-  color: #ffd700;
-}
-
-.footers {
+.foot {
   color: white;
   background: linear-gradient(135deg, #007bff, #00bfff);
   font-weight: 400;
 }
 
-.footers a {
+.foot a {
   color: white;
 }
 
-.footers p {
+.foot p {
   margin-bottom: 2.5px;
 }
