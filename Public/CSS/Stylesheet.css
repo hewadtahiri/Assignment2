@@ -4,7 +4,6 @@ html, body {
 
 .navbar {
   background: linear-gradient(360deg, #007bff, #00bfff);
-  padding: 15px 0;
 }
 
 .navbar a {
