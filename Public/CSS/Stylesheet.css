@@ -4,6 +4,7 @@ html, body {
 
 .navbar {
   background: linear-gradient(360deg, #007bff, #00bfff);
+  padding: 15px 0;
 }
 
 .navbar a {
@@ -32,5 +33,11 @@ html, body {
 }
 
 .projects h3 {
+  font-weight: 400;
+}
+
+.footerstyle {
+  background: linear-gradient(135deg, #007bff, #00bfff);
+  color: white;
   font-weight: 400;
 }
