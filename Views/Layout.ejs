@@ -13,10 +13,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
   <%- include("Partials/Header") %>
 
-  <main class="flex-shrink-0">
+  <main class="flex-grow-1">
     <% if (body === "Home") { %>
       <%- include("Home") %>
     <% } else if (body === "About Me") { %>
