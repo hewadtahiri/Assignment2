@@ -17,7 +17,15 @@
   <%- include("Partials/Header") %>
 
   <main>
-    <%- body %>
+    <% if (body === "Home") { %>
+      <%- include("Home") %>
+    <% } else if (body === "About Me") { %>
+      <%- include("About Me") %>
+    <% } else if (body === "Contact Me") { %>
+      <%- include("Contact Me") %>
+    <% } else if (body === "Projects") { %>
+      <%- include("Projects") %>
+    <% } %>
   </main>
 
   <%- include("Partials/Footer") %>
