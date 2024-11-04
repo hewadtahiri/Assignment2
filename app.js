@@ -1,34 +1,13 @@
-const express = require("express");
-const path = require("path");
-const logger = require("morgan");
-const cookieParser = require("cookie-parser");
-const indexRouter = require("./Controllers/index");
+const express = require('express');
+const path = require('path');
+const routes = require('./Controllers/index');
 const app = express();
 
-app.set("views", path.join(__dirname, "Views"));
-app.set("view engine", "ejs");
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'Views'));
 
-app.use(logger("dev"));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, "Public")));
-app.use("/", indexRouter);
+app.use(express.static(path.join(__dirname, 'Public')));
 
-app.use((req, res, next) => {
-  const err = new Error("Not Found");
-  err.status = 404;
-  next(err);
-});
-
-app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(err.status || 500).send("Something went wrong!");
-});
-
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+app.use('/', routes);
 
 module.exports = app;
