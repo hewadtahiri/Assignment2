@@ -40,16 +40,16 @@ html, body {
   font-weight: 400;
 }
 
-.foot {
+.footbar {
   color: white;
   background: linear-gradient(135deg, #007bff, #00bfff);
   font-weight: 400;
 }
 
-.foot a {
+.footbar a {
   color: white;
 }
 
-.foot p {
+.footbar p {
   margin-bottom: 2.5px;
 }
