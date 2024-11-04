@@ -1,0 +1,55 @@
+html, body {
+  font-family: "Lexend", sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(360deg, #007bff, #00bfff);
+  padding: 15px 0;
+}
+
+.navbar a {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ffd700;
+}
+
+.title h1 {
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.title p {
+  font-weight: 400;
+}
+
+.photo {
+  height: "500px"
+}
+
+.projects h2 {
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.projects h3 {
+  font-weight: 400;
+}
+
+.foot {
+  color: white;
+  background: linear-gradient(135deg, #007bff, #00bfff);
+  font-weight: 400;
+}
+
+.foot a {
+  color: white;
+}
+
+.foot p {
+  margin-bottom: 2.5px;
+}
