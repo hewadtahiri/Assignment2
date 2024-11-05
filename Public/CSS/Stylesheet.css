@@ -37,11 +37,11 @@ html, body {
 }
 
 .contactme {
+  color: black;
   font-weight: 700;
 }
 
 .media {
-  color: black;
   height: 500px
 }
 
