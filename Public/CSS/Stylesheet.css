@@ -17,23 +17,15 @@ html, body {
   color: #ffd700;
 }
 
-.title h1 {
+.text h1 {
   font-weight: 700;
 }
 
-.title p {
+.text p {
   font-weight: 400;
 }
 
-.projects h2 {
-  font-weight: 700;
-}
-
-.projects h3 {
-  font-weight: 400;
-}
-
-.contactme {
+.label {
   font-weight: 700;
 }
 
