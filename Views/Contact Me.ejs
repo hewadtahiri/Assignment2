@@ -6,25 +6,27 @@
     </div>
   </div>
   <div class="row align-items-center">
-    <div class="col">
-      <form action="mailto:hewad.tahiri@ontariotechu.net" method="post" enctype="text/plain">
+    <div class="col-6">
+      <form action="mailto:hewad.tahiri@ontariotechu.net" method="post" enctype="text/plain" class="w-50">
         <div class="mb-3">
           <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name" name="name" required>
+          <input type="text" id="name" name="name" class="form-control" required placeholder="John Doe">
         </div>
         <div class="mb-3">
           <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" id="email" name="email" required>
+          <input type="email" id="email" name="email" class="form-control" required placeholder="name@example.com">
         </div>
         <div class="mb-3">
           <label for="phone" class="form-label">Phone Number</label>
-          <input type="tel" class="form-control" id="phone" name="phone" required>
+          <input type="tel" id="phone" name="phone" class="form-control" pattern="[0-9]{10}" required placeholder="1234567890">
         </div>
         <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+          <label for="comments" class="form-label">Message</label>
+          <textarea id="comments" name="comments" class="form-control" required placeholder="Enter your message."></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="d-grid">
+          <input type="submit" value="Submit" class="btn btn-primary">
+        </div>
       </form>
     </div>
   </div>
